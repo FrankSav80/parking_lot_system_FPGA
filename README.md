@@ -1,10 +1,3 @@
-<!-- 
-
-# parking_lot_system_FPGA
-Realization of a VHDL based system of a parking lot
-
--->
-
 # 🅿️ Car Parking System (VHDL Implementation)
 
 A **VHDL-based car parking system** implemented on the **Altera DE10-Lite FPGA board**, designed as the final project for the *Digital Programmable Systems* course.
