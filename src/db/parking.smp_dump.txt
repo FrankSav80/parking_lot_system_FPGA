@@ -1,0 +1,7 @@
+
+State Machine - |parking|pres_state
+Name pres_state.stop pres_state.stopen pres_state.stpassword pres_state.initial 
+pres_state.initial 0 0 0 0 
+pres_state.stpassword 0 0 1 1 
+pres_state.stopen 0 1 0 1 
+pres_state.stop 1 0 0 1 

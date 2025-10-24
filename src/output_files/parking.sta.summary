@@ -1,0 +1,293 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'tmp'
+Slack : -6.236
+TNS   : -23.987
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.379
+TNS   : -485.508
+
+Type  : Slow 1200mV 85C Model Setup 'tmp0'
+Slack : -5.347
+TNS   : -245.624
+
+Type  : Slow 1200mV 85C Model Setup 'tmpservo1'
+Slack : -5.097
+TNS   : -67.732
+
+Type  : Slow 1200mV 85C Model Setup 'tmpservo2'
+Slack : -5.005
+TNS   : -134.109
+
+Type  : Slow 1200mV 85C Model Setup 'password[1]'
+Slack : -1.456
+TNS   : -1.456
+
+Type  : Slow 1200mV 85C Model Setup 'ECHO1'
+Slack : 0.168
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ECHO2'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ECHO2'
+Slack : -0.846
+TNS   : -0.846
+
+Type  : Slow 1200mV 85C Model Hold 'ECHO1'
+Slack : -0.429
+TNS   : -0.429
+
+Type  : Slow 1200mV 85C Model Hold 'tmpservo2'
+Slack : 0.324
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tmpservo1'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tmp0'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'tmp'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'password[1]'
+Slack : 0.714
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -275.182
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ECHO1'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ECHO2'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'password[1]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tmp0'
+Slack : -1.403
+TNS   : -98.210
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tmpservo1'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tmpservo2'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tmp'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Slow 1200mV 0C Model Setup 'tmp'
+Slack : -5.617
+TNS   : -21.524
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.908
+TNS   : -424.132
+
+Type  : Slow 1200mV 0C Model Setup 'tmp0'
+Slack : -4.865
+TNS   : -219.778
+
+Type  : Slow 1200mV 0C Model Setup 'tmpservo1'
+Slack : -4.544
+TNS   : -58.033
+
+Type  : Slow 1200mV 0C Model Setup 'tmpservo2'
+Slack : -4.466
+TNS   : -117.788
+
+Type  : Slow 1200mV 0C Model Setup 'password[1]'
+Slack : -1.423
+TNS   : -1.423
+
+Type  : Slow 1200mV 0C Model Setup 'ECHO1'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ECHO2'
+Slack : 0.288
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ECHO2'
+Slack : -0.702
+TNS   : -0.702
+
+Type  : Slow 1200mV 0C Model Hold 'ECHO1'
+Slack : -0.326
+TNS   : -0.326
+
+Type  : Slow 1200mV 0C Model Hold 'tmpservo2'
+Slack : 0.289
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tmpservo1'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tmp0'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'tmp'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'password[1]'
+Slack : 0.663
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -275.182
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ECHO1'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ECHO2'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'password[1]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tmp0'
+Slack : -1.403
+TNS   : -98.210
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tmpservo1'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tmpservo2'
+Slack : -1.403
+TNS   : -46.299
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tmp'
+Slack : -1.403
+TNS   : -5.612
+
+Type  : Fast 1200mV 0C Model Setup 'tmp'
+Slack : -2.972
+TNS   : -11.664
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.865
+TNS   : -89.901
+
+Type  : Fast 1200mV 0C Model Setup 'tmp0'
+Slack : -1.791
+TNS   : -66.023
+
+Type  : Fast 1200mV 0C Model Setup 'tmpservo2'
+Slack : -1.449
+TNS   : -36.516
+
+Type  : Fast 1200mV 0C Model Setup 'tmpservo1'
+Slack : -1.428
+TNS   : -8.452
+
+Type  : Fast 1200mV 0C Model Setup 'password[1]'
+Slack : -0.189
+TNS   : -0.189
+
+Type  : Fast 1200mV 0C Model Setup 'ECHO1'
+Slack : 0.738
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ECHO2'
+Slack : 0.851
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ECHO2'
+Slack : -0.530
+TNS   : -0.530
+
+Type  : Fast 1200mV 0C Model Hold 'ECHO1'
+Slack : -0.311
+TNS   : -0.311
+
+Type  : Fast 1200mV 0C Model Hold 'tmpservo2'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tmpservo1'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tmp0'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'tmp'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'password[1]'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -203.699
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ECHO1'
+Slack : -3.000
+TNS   : -4.433
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ECHO2'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'password[1]'
+Slack : -3.000
+TNS   : -3.028
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tmp0'
+Slack : -1.000
+TNS   : -70.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tmpservo1'
+Slack : -1.000
+TNS   : -33.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tmpservo2'
+Slack : -1.000
+TNS   : -33.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tmp'
+Slack : -1.000
+TNS   : -4.000
+
+------------------------------------------------------------

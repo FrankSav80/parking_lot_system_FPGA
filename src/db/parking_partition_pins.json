@@ -1,0 +1,217 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "trigger1",
+					"strict" : false
+				},
+				{
+					"name" : "trigger2",
+					"strict" : false
+				},
+				{
+					"name" : "ledr",
+					"strict" : false
+				},
+				{
+					"name" : "ledg",
+					"strict" : false
+				},
+				{
+					"name" : "ledy",
+					"strict" : false
+				},
+				{
+					"name" : "clk_out1",
+					"strict" : false
+				},
+				{
+					"name" : "clk_out2",
+					"strict" : false
+				},
+				{
+					"name" : "clk_out3",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer",
+					"strict" : false
+				},
+				{
+					"name" : "clk_servo1",
+					"strict" : false
+				},
+				{
+					"name" : "clk_servo2",
+					"strict" : false
+				},
+				{
+					"name" : "pwm",
+					"strict" : false
+				},
+				{
+					"name" : "password[1]",
+					"strict" : false
+				},
+				{
+					"name" : "password[2]",
+					"strict" : false
+				},
+				{
+					"name" : "password[3]",
+					"strict" : false
+				},
+				{
+					"name" : "password[4]",
+					"strict" : false
+				},
+				{
+					"name" : "password[0]",
+					"strict" : false
+				},
+				{
+					"name" : "password[5]",
+					"strict" : false
+				},
+				{
+					"name" : "password[6]",
+					"strict" : false
+				},
+				{
+					"name" : "password[7]",
+					"strict" : false
+				},
+				{
+					"name" : "password[8]",
+					"strict" : false
+				},
+				{
+					"name" : "password[9]",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ECHO1",
+					"strict" : false
+				},
+				{
+					"name" : "ECHO2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

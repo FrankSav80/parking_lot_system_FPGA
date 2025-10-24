@@ -1,0 +1,88 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.all;
+use IEEE.numeric_std.all;
+
+
+ENTITY parking IS
+	PORT (clk, ECHO1, ECHO2, reset: IN std_logic;
+			password: IN std_logic_vector(9 downto 0);
+	      trigger1, trigger2, ledr, ledg, clk_out1, clk_out2: OUT std_logic);
+			-- 7 segmenti per scritta OPEN CLOSE
+			-- tastierino numerico per password
+	
+END ENTITY;
+
+
+ARCHITECTURE struct OF parking IS
+
+	TYPE state_values IS (initial, stpassword, stopen, stop);
+	SIGNAL pres_state, next_state: state_values;
+	
+	SIGNAL counter: INTEGER := 1; --Clock 1s
+	SIGNAL tmp: std_logic := '0'; 
+	
+	SIGNAL counter0: INTEGER := 1; --Clocl 1ms
+	SIGNAL tmp0: std_logic := '0';
+	
+	SIGNAL trigger: std_logic;
+	
+	-- CLOCK PER STATE MACHINE (1s)
+	BEGIN
+		PROCESS (clk)
+			BEGIN
+				IF rising_edge(clk) THEN
+					counter <= counter+1;
+					IF counter = 50000000 THEN
+						tmp <= not tmp;
+						counter <= 0;
+					END IF;
+				END IF;
+		END PROCESS;
+		clk_out1 <= tmp;
+		
+		
+	-- CLOCK PER SENSORI (1ms)
+		PROCESS (clk)
+			BEGIN
+				IF rising_edge(clk) THEN
+					counter0 <= counter0 + 1;
+					IF counter0 = 25 THEN
+						tmp0 <= not tmp0;
+						counter0 <= 0;
+					END IF;
+				END IF;
+		END PROCESS;
+		clk_out2 <= tmp0;
+		
+		PROCESS(tmp0)
+		VARIABLE count1: integer:= 0;
+		VARIABLE count2: std_logic_vector(17 downto 0);
+			BEGIN
+				IF rising_edge(tmp) THEN
+					IF count1 = 0 THEN
+						count2 <= "000000000000000000";
+						trigger <= '1';
+					ELSIF count1 = 10 THEN
+							trigger <= '0';
+					END IF;
+	   END PROCESS;
+		
+		trigger1 <= trigger;
+		trigger2 <= trigger;
+	
+	statereg: PROCESS(tmp,reset)
+	BEGIN
+		IF (reset ='0') THEN
+			pres_state <= initial;
+		ELSIF rising_edge(tmp) THEN
+			pres_state <= next_state;
+		END IF;
+	END PROCESS;
+
+	
+	fsm: PROCESS(pres_state, ECHO1, ECHO2)
+		BEGIN
+
+END ARCHITECTURE;	
